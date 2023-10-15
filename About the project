@@ -1,0 +1,27 @@
+The objective of this exercise is to design a login screen for a user. You are required
+to implement user account management as a swing app.
+There will be one login screen. Based on user role (admin or regular user) there will
+be screens shown in the same window.
+Regular user:
+● A regular user can only view and update his personal details.
+● Logged-in user info is shown on the user account JPanel. There is a feature
+to update personal information including passwords.
+● Maintain an array list storing the history of passwords. If a user decides to
+update their password, your app must block them from using a previously
+used password.
+● All passwords must be saved as hashes.
+For regular users, there should be a menu that would invoke the following 2 panels.
+1)View the personal information
+2) Update the personal information (including username and password)
+Admin:
+Create an array list of persons and another array list of users. Each user record must
+have 4 fields: user ID, NUID, user name, password (hash), enabled, and role
+(regular user or admin). One user in the list of users will be admin with NUID null.
+There will be no person associated with it.
+For admin, there should be a menu that would invoke the following 5 panels.
+1) Add a new person.
+2) List all the persons.
+3) Search for a person by NUID.
+4) Create a new user. Enter NUID, user name, password, and enabled.
+5) Manage user. Search user by NUID. Update user name, and password and
+enable
